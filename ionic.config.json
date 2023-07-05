@@ -1,0 +1,7 @@
+{
+  "name": "DemoGestures",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

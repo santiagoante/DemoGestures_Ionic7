@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">
+      Gestos con Ionic 7.1.1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-button class="custom-button" expand="full" (click)="unTap()">Tocar</ion-button>
+  </div>
+
+  <div class="ion-padding">
+    <ion-button class="custom-button" expand="full" (dblclick)="dosTap()">Tocar x2</ion-button>
+  </div>
+
+  <div class="ion-padding">
+    <ion-button class="custom-button" expand="full" (touchstart)="pressOn()" (touchend)="pressOff()">Presionar</ion-button>
+  </div>
+
+  <div class="ion-padding">
+    <ion-button class="custom-button" expand="full" (click)="swipe()">Abrir swipe</ion-button>
+  </div>
+
+  <div class="ion-padding">
+    <ion-button class="custom-button" expand="full" (click)="pan()">Abrir Pan</ion-button>
+  </div> 
+    
+  <div class="ion-padding">
+    <ion-button class="custom-button" expand="full" (click)="rotate()">Abrir Rotate</ion-button>
+  </div>
+  
+  <div class="ion-padding">
+    <ion-button class="custom-button" expand="full" (click)="pinch()">Abrir Pinch</ion-button>
+  </div>
+  
+
+
+</ion-content>
+
+
